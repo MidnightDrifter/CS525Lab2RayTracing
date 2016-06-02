@@ -21,6 +21,9 @@
     <ClInclude Include="ray_intersection-files\trace.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ray_intersection-files\shapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ray_intersection-files\driver.cpp">
@@ -30,6 +33,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ray_intersection-files\trace-partial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ray_intersection-files\trace.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

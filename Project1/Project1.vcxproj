@@ -111,12 +111,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ray_intersection-files\shapes-partial.h" />
+    <ClInclude Include="ray_intersection-files\shapes.h" />
     <ClInclude Include="ray_intersection-files\trace.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ray_intersection-files\driver.cpp" />
     <ClCompile Include="ray_intersection-files\shapes.cpp" />
     <ClCompile Include="ray_intersection-files\trace-partial.cpp" />
+    <ClCompile Include="ray_intersection-files\trace.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="ray_intersection-files\handout.txt" />
